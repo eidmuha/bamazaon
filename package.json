@@ -1,0 +1,29 @@
+{
+  "name": "bamazaon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eidmuha/bamazaon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eidmuha/bamazaon/issues"
+  },
+  "homepage": "https://github.com/eidmuha/bamazaon#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "fuzzy": "^0.1.3",
+    "inquirer": "^7.0.0",
+    "inquirer-autocomplete-prompt": "^1.0.1",
+    "inquirer-chalk-pipe": "^1.3.0",
+    "inquirer-prompt-suggest": "^0.1.0",
+    "lodash": "^4.17.15",
+    "mysql": "^2.17.1"
+  }
+}
