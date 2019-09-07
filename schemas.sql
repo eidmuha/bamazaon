@@ -13,6 +13,15 @@ CREATE TABLE products (
   department_name VARCHAR(100) NOT NULL,
   price INT,
   stock_quantity INT,
+  product_sales INT,
   PRIMARY KEY (item_id)
 );
 ALTER TABLE products AUTO_INCREMENT=0;
+
+use bamazon;
+create table departments (
+department_id INT NOT NULL AUTO_INCREMENT,
+department_name VARCHAR(100) NOT NULL,
+over_head_costs INTEGER(10) NOT NULL,
+PRIMARY KEY (department_id)
+);
