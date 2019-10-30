@@ -1,4 +1,5 @@
 # Bamazon
+An Amazon-like storefront command line app that will take in orders from customers and deplete stock from the store's inventory. Manager can manage and a supervisor can view the order details including the costs and profit
 ## The project architecture
 ![architecture](https://github.com/eidmuha/bamazaon/blob/master/images/architecture.PNG)
 
